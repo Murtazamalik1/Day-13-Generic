@@ -2,6 +2,12 @@ package generic;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome To Generic");
+        MaxInt maxInt = new MaxInt();
+        System.out.println("Test case1");
+        maxInt.maxValue(7, 5, 6);
+        System.out.println("Test case2");
+        maxInt.maxValue(5, 6, 4);
+        System.out.println("Test case3");
+        maxInt.maxValue(5, 6, 8);
     }
 }
